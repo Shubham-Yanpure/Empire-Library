@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.container h1{
+    float: right;
+    margin: 23px 100px 0 0;
+    /* color: rgb(124, 124, 124); */
+    color: rgb(255, 255, 255);
+}
+.container h1:hover{
+    float: right;
+    margin: 23px 100px 0 0;
+    /* color: rgb(124, 124, 124); */
+    color: rgb(255, 255, 255);
+}
+form{
+    width: 100px;
+    height: 100px;
+    float: right;
+    font-size: 35px;
+    color: rgb(114, 114, 114);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 210px -100px;
+    font-weight: bold;
+}
+form input{
+    width: 270px;
+    height: 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.loginbtn{
+    width: 120px;
+    height: 33px;
+    background-color: rgb(69, 140, 221);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 7px;
+    margin: 0px 92px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.loginbtn:hover{
+    width: 120px;
+    height: 33px;
+    background-color: rgb(28, 112, 209);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 7px;
+    margin: 0 92px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.username{
+    margin: 25px 0px;
+}
+.password{
+    margin: 25px 0px;
+}
+input[type=text]{
+    margin: 13px 0px;
+    padding: 12px 20px;
+}
+input[type=password]{
+    margin: 13px 0px;
+    padding: 12px 20px;
+}
