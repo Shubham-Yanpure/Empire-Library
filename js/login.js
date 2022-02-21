@@ -13,7 +13,7 @@ loginbtn.addEventListener('click',function(){
     }
 });
 
-loginbtn.addEventListener("keyup", function(event){
+document.addEventListener("keyup", function(event){
     if(event.key=="Enter"){
        let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
